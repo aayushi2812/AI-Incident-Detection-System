@@ -31,17 +31,14 @@ and data-quality risks.
 
     AI-Incident-Detection-System/
     ├── data/
-    ├── models/
     ├── notebooks/
-    ├── training/
-    ├── utils/
     ├── results/
     └── README.md
 
 ## 📥 Datasets Used
 
--   CodeXGLUE / Big-Vul / SARD
--   Credit Card Fraud / UCI Anomaly / Synthetic noisy dataset
+-   CodeXGLUE
+-   NASA MDP Dataset
 
 ## 🤖 Models Used
 
@@ -64,13 +61,6 @@ Outputs probability scores and final incident risk classification.
 -   Integrates **code-level + data-level** risks\
 -   Predicts **AI incidents** instead of isolated issues\
 -   Introduces unified **AI Incident Risk Score**
-
-## 🧪 How to Run
-
-    pip install -r requirements.txt
-    python training/train_code_model.py
-    python training/train_data_quality_model.py
-    python training/train_incident_classifier.py
 
 ## 📘 License
 
