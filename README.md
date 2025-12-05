@@ -19,7 +19,7 @@ and data-quality risks.
 
 -   **Model A -- Code Vulnerability Detection**
 -   **Model B -- Data Quality Anomaly Detection**
--   **Model C -- Incident Risk Meta-Classifier**
+-   **Model C -- Incident Risk Classifier**
 
 ## 🧠 Project Architecture
 
@@ -42,15 +42,9 @@ and data-quality risks.
 
 ## 🤖 Models Used
 
--   **CodeBERT / DistilBERT / BiLSTM**
--   **Autoencoder / Variational Autoencoder**
--   **Meta-classifier (MLP/Logistic Regression)**
-
-## ⚙️ Training Pipeline
-
-1.  Train Code Model\
-2.  Train Data Quality Model\
-3.  Train Meta Incident Classifier
+-   **CodeBERT**
+-   **Autoencoder**
+-   **Meta-classifier (Logistic Regression)**
 
 ## 📊 Results
 
